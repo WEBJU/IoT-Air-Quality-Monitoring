@@ -6,7 +6,7 @@
     <string name="action_right_drawer">Right Drawer</string>
     <string name="water">Water</string>
     <string name="electricity">Electricity</string>
-    <string name="plant">Plant</string>
+    <string name="plant">Air Quality</string>
     <string name="unlock">Unlock</string>
     <string name="confirm_pattern">Confirm your screen lock PIN , Pattern or Password</string>
     <string name="unlock_failed">Failed to Unlock the app.</string>
