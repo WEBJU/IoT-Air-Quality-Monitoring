@@ -16,7 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".miscellaneous.DetailedReportActivity"
+            android:exported="false" />
 
         <activity
             android:name="com.example.aqm.authentication.OtpVerificationActivity"
@@ -27,7 +29,6 @@
         <activity
             android:name="com.example.aqm.reportissue.ReportProblemActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name="com.example.aqm.faq.FaqActivity"
             android:screenOrientation="portrait" />
@@ -35,12 +36,11 @@
             android:name="com.example.aqm.authentication.ChangePasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.aqm.miscellaneous.PrivacyPolicyActivity"
+            android:name=".miscellaneous.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.aqm.miscellaneous.AutoOnOffActivity"
+            android:name=".miscellaneous.AutoOnOffActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name="com.example.aqm.onboarding.OnBoardingActivity"
             android:screenOrientation="portrait" />
@@ -48,10 +48,8 @@
             android:name="com.example.aqm.maincontroller.BottomNavBarActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.aqm.miscellaneous.SplashScreenActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:name=".miscellaneous.SplashScreenActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.example.aqm.authentication.RegistrationActivity"
             android:screenOrientation="portrait" />
@@ -60,7 +58,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.aqm.authentication.LoginActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

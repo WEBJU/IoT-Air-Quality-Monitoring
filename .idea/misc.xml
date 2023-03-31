@@ -3,6 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_auto_on_off.xml" value="0.1" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_bottom_nav_bar.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_change_password.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_default.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_detailed_report.xml" value="0.264" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_edit_profile.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_faq.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_last_month_graph.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_on_boarding.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_otp_verification.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_password_reset.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_privacy_policy.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_registration.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_report_problem.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_splash_screen.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/activity_this_month_graph.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/app_bar_default.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/content_default.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_dashboard.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_first.xml" value="0.151268115942029" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_lottie_dialog.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_plant.xml" value="0.19753086419753085" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_s1.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_s2.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_s4.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_second.xml" value="0.151268115942029" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/fragment_tab_layout_meter.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/list_group.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/list_item.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/nav_header_main.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/layout/parental_control_switch_layout.xml" value="0.25833333333333336" />
+        <entry key="..\:/CEO/trial/IoT-Air-Quality-Monitoring/app/src/main/res/menu/activity_main_drawer.xml" value="0.2786458333333333" />
         <entry key="..\:/Users/CEO/Desktop/Emman/Students/Pending/Dan/Code/IoTApp/app/src/main/res/drawable/border_outline.xml" value="0.13" />
         <entry key="..\:/Users/CEO/Desktop/Emman/Students/Pending/Dan/Code/IoTApp/app/src/main/res/drawable/btn_style.xml" value="0.13" />
         <entry key="..\:/Users/CEO/Desktop/Emman/Students/Pending/Dan/Code/IoTApp/app/src/main/res/drawable/edit_style.xml" value="0.13" />

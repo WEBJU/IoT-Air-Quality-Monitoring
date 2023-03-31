@@ -77,4 +77,13 @@ This policy is effective as of 2020-05-01</string>
     <string name="make_your_plant_healthy_by_getting_plant_moisture_level">Make your plant healthy by getting plant moisture level.</string>
     <string name="get_the_real_time_water_level_readings">Get the real time water level readings.</string>
     <string name="integrated_with_goggle_assistant">Integrated with Goggle Assistant.</string>
+    <string name="title_activity_full_report">FullReportActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

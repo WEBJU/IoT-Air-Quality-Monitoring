@@ -23,6 +23,7 @@ import com.example.aqm.miscellaneous.AutoOnOffActivity;
 import com.example.aqm.R;
 import com.example.aqm.authentication.LoginActivity;
 //import com.example.aqm.electricity.TabLayoutMeterFragment;
+import com.example.aqm.miscellaneous.DetailedReportActivity;
 import com.example.aqm.miscellaneous.PrivacyPolicyActivity;
 import com.example.aqm.reportissue.ReportProblemActivity;
 import com.example.aqm.plant.PlantFragment;
@@ -202,6 +203,11 @@ public class BottomNavBarActivity extends AppCompatActivity  implements Navigati
                 Intent cp = new Intent(getApplicationContext(), ChangePasswordActivity.class);
                 startActivity(cp);
                 mp.start();
+                break;
+            case R.id.nav_report:
+                Intent report = new Intent(getApplicationContext(), DetailedReportActivity.class);
+                startActivity(report);
+                //mp.start();
                 break;
             case R.id.nav_faq:
                 Intent faq = new Intent(getApplicationContext(), FaqActivity.class);
