@@ -207,7 +207,7 @@ public class BottomNavBarActivity extends AppCompatActivity  implements Navigati
             case R.id.nav_report:
                 Intent report = new Intent(getApplicationContext(), DetailedReportActivity.class);
                 startActivity(report);
-                //mp.start();
+                mp.start();
                 break;
             case R.id.nav_faq:
                 Intent faq = new Intent(getApplicationContext(), FaqActivity.class);
