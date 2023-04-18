@@ -15,6 +15,8 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -58,6 +60,14 @@ public class DetailedReportActivity extends AppCompatActivity {
                     temp.setText(temperature.toString() + " °C");
                     humid.setText(humidity.toString() + " %");
                     mq.setText(mq135.toString() + " PPM");
+
+                    LinearLayout layout = findViewById(R.id.warning);
+
+                    if (mq135 >= 1000) {
+                        layout.setVisibility(View.VISIBLE);
+                    } else {
+                        layout.setVisibility(View.GONE);
+                    }
                 }
             }
 
