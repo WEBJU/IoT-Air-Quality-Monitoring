@@ -125,7 +125,7 @@ tools:context=".maincontroller.DashboardFragment">
 
                 <pl.droidsonroids.gif.GifImageView
                     android:id="@+id/weather_animation"
-                    android:layout_width="300dp"
+                    android:layout_width="316dp"
                     android:layout_height="300dp" />
 
                 <TableLayout
@@ -152,9 +152,9 @@ tools:context=".maincontroller.DashboardFragment">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:visibility="gone"
                                 android:layout_height="match_parent"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:visibility="gone">
 
                                 <ImageView
                                     android:layout_width="wrap_content"
@@ -185,10 +185,10 @@ tools:context=".maincontroller.DashboardFragment">
 
 
                         <soup.neumorphism.NeumorphCardView
-                            android:visibility="gone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
+                            android:visibility="gone"
                             app:neumorph_backgroundColor="@color/backgroundColor"
                             app:neumorph_shadowColorDark="@color/strokecol"
                             app:neumorph_shadowColorLight="@color/strokecol"

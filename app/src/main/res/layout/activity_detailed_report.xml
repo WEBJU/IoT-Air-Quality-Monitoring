@@ -119,13 +119,38 @@
         </LinearLayout>
     </soup.neumorphism.NeumorphCardView>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/warning"
+    android:padding="10dp"
+    android:visibility="gone"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        app:tint="@color/red_active" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_black"
+        android:paddingStart="@dimen/_8sdp"
+        android:text="Please Consider opening of windows and doors to reduce the air quality."
+        android:textColor="@color/red_inactive"
+        android:textSize="@dimen/_12sdp" />
+</LinearLayout>
     <Button
         android:id="@+id/print_button"
-        android:text="Print Report"
-        android:background="@drawable/btn_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        />
+        android:text="Print Report" />
+
+
 
 </LinearLayout>
