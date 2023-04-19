@@ -48,12 +48,12 @@ I want to inform users of this Service that these third parties have access to y
     <string name="l9">Changes to This Privacy Policy</string>
     <string name="i9">I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of 2020-05-01</string>
+This policy is effective as of 2023-04-03</string>
     <string name="login">LOGIN</string>
     <string name="email_address">Email Address</string>
     <string name="reset_password">Reset Password</string>
     <string name="create_account">Create Account</string>
-    <string name="myhome">IoT Air Qaulity Monitoring App</string>
+    <string name="myhome">IoT Air Quality Monitoring App</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="full_name">Full Name</string>
     <string name="sign_up">SIGN-UP</string>
@@ -73,7 +73,7 @@ This policy is effective as of 2020-05-01</string>
     <string name="this_month_electricity_usage">This Month Electricity Usage</string>
     <string name="_0_100">0-100</string>
     <string name="get_realtime_electricity_readings_with_statistics">Get realtime air quality statistics.</string>
-    <string name="check_indoor_realtime_weather_of_your_home">Check recommendatios for your home.</string>
+    <string name="check_indoor_realtime_weather_of_your_home">Check recommendations for your home.</string>
     <string name="make_your_plant_healthy_by_getting_plant_moisture_level">Make your plant healthy by getting plant moisture level.</string>
     <string name="get_the_real_time_water_level_readings">Get the real time water level readings.</string>
     <string name="integrated_with_goggle_assistant">Integrated with Goggle Assistant.</string>
