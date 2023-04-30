@@ -137,7 +137,7 @@
         android:layout_margin="20dp"
         android:orientation="horizontal"
 
-        android:visibility="visible">
+        android:visibility="gone">
 
         <ImageView
             android:id="@+id/imageView"
@@ -153,6 +153,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_regular"
             android:paddingStart="@dimen/_8sdp"
+
             android:textAlignment="textStart"
             android:text="Air quality in the room is above recommended levels. Please Consider opening of windows and doors to counter ambient air."
             android:textColor="@color/red_inactive"

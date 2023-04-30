@@ -85,7 +85,7 @@ public class DashboardFragment extends Fragment {
                         database.child("fcm_token").setValue(token);
                     }
                 });
-
+//        setHomeImage();
 
         mp = MediaPlayer.create(getActivity(), R.raw.buttonsound);
 
@@ -130,37 +130,37 @@ public class DashboardFragment extends Fragment {
                 Long firestatus = (Long) dataSnapshot.child("fire").child("fireleak").getValue();
                 Long gasstatus = (Long) dataSnapshot.child("gas").child("gasleak").getValue();
 
-                if(dataSnapshot.exists()) {
-                    if (firestatus == 0 && gasstatus == 1) {
-                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.danger_blinking));
-                        fgs.setText("FIRE & GAS BOTH WAS DETECTED AT YOUR HOME!");
-                        fgs.setTextColor(Color.RED);
-                        fgi.startAnimation(animation);
-                        fgs.startAnimation(anim);
-                        v.vibrate(pattern, 0);
-                    } else if (firestatus == 0) {
-                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.danger_blinking));
-                        fgs.setText("FIRE WAS DETECTED AT YOUR HOME!");
-                        fgs.setTextColor(Color.RED);
-                        fgi.startAnimation(animation);
-                        fgs.startAnimation(anim);
-                        v.vibrate(pattern, 0);
-                    } else if (gasstatus == 1) {
-                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.danger_blinking));
-                        fgs.setText("GAS WAS DETECTED AT YOUR HOME!");
-                        fgs.setTextColor(Color.RED);
-                        fgi.startAnimation(animation);
-                        fgs.startAnimation(anim);
-                        v.vibrate(pattern, 0);
-                    } else {
-                        animation.cancel();
-                        anim.cancel();
-                        v.cancel();
-                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.safehome));
-                        fgs.setText("YOUR HOME IS SAFE!");
-                        fgs.setTextColor(getResources().getColor(R.color.textColor));
-                    }
-                }
+//                if(dataSnapshot.exists()) {
+//                    if (firestatus == 0 && gasstatus == 1) {
+//                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.danger_blinking));
+//                        fgs.setText("FIRE & GAS BOTH WAS DETECTED AT YOUR HOME!");
+//                        fgs.setTextColor(Color.RED);
+//                        fgi.startAnimation(animation);
+//                        fgs.startAnimation(anim);
+//                        v.vibrate(pattern, 0);
+//                    } else if (firestatus == 0) {
+//                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.danger_blinking));
+//                        fgs.setText("FIRE WAS DETECTED AT YOUR HOME!");
+//                        fgs.setTextColor(Color.RED);
+//                        fgi.startAnimation(animation);
+//                        fgs.startAnimation(anim);
+//                        v.vibrate(pattern, 0);
+//                    } else if (gasstatus == 1) {
+//                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.danger_blinking));
+//                        fgs.setText("GAS WAS DETECTED AT YOUR HOME!");
+//                        fgs.setTextColor(Color.RED);
+//                        fgi.startAnimation(animation);
+//                        fgs.startAnimation(anim);
+//                        v.vibrate(pattern, 0);
+//                    } else {
+//                        animation.cancel();
+//                        anim.cancel();
+//                        v.cancel();
+//                        fgi.setImageDrawable(getResources().getDrawable(R.drawable.safehome));
+//                        fgs.setText("YOUR HOME IS SAFE!");
+//                        fgs.setTextColor(getResources().getColor(R.color.textColor));
+//                    }
+//                }
             }
 
             @Override
@@ -370,5 +370,16 @@ public class DashboardFragment extends Fragment {
         });
 
         return myFragmentView;
+    }
+
+    private void setHomeImage() {
+//        GifDrawable gifFromResource;
+//        try {
+//            gifFromResource = new GifDrawable(getResources(), R.raw.sunny_snow);
+//            gifImageView.setImageDrawable(gifFromResource);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
     }
 }

@@ -110,7 +110,7 @@ public class LoginActivity extends AppCompatActivity  {
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
                     if (user.isEmailVerified()) {
-                        DynamicToast.makeSuccess(LoginActivity.this, "Redirecting to OTP!", 10).show();
+                        DynamicToast.makeSuccess(LoginActivity.this, "Logging in..", 10).show();
                         Intent sendToOtp =  new Intent(LoginActivity.this, BottomNavBarActivity.class);
                         startActivity(sendToOtp);
                         finish();

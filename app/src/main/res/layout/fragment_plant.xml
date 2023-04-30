@@ -73,7 +73,7 @@
                         android:layout_marginTop="1dp"
                         android:foregroundGravity="center"
                         app:barWidth="17dp"
-                        app:countText="931,199"
+                        app:countText="1000"
                         app:countTextColor="@color/textColor"
                         app:countTextSize="20sp"
                         app:defTextColor="@color/textColor"
