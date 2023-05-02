@@ -65,6 +65,23 @@ public class DetailedReportActivity extends AppCompatActivity {
 
                     if (mq135 >= 1000) {
                         layout.setVisibility(View.VISIBLE);
+//                        // Get the FCM token from Realtime Firebase
+//                        DatabaseReference ref = database.child("fcmToken");
+//                        ref.addListenerForSingleValueEvent(new ValueEventListener() {
+//                            @Override
+//                            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                                String fcmToken = snapshot.getValue(String.class);
+//
+//                                // Send the notification to the user
+//                                FcmNotificationSender sender = new FcmNotificationSender(fcmToken, "Warning!", "MQ is greater than 1000");
+//                                sender.sendNotification();
+//                            }
+//
+//                            @Override
+//                            public void onCancelled(@NonNull DatabaseError error) {
+//                                Log.e(TAG, "Failed to get FCM token: " + error.getMessage());
+//                            }
+//                        });
                     } else {
                         layout.setVisibility(View.GONE);
                     }

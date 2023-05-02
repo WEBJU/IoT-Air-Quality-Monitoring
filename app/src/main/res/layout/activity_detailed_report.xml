@@ -144,12 +144,12 @@
         android:textColor="@color/red_inactive"
         android:textSize="@dimen/_12sdp" />
 </LinearLayout>
-    <Button
-        android:id="@+id/print_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Print Report" />
+<!--    <Button-->
+<!--        android:id="@+id/print_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Print Report" />-->
 
 
 
