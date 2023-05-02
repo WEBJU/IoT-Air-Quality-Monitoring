@@ -95,13 +95,7 @@ public class LoginActivity extends AppCompatActivity  {
             }
         });
 
-//        btnSignup.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                mp.start();
-//                startActivity(new Intent(LoginActivity.this, RegistrationActivity.class));
-//            }
-//        });
+
 
     }
 
@@ -116,11 +110,8 @@ public class LoginActivity extends AppCompatActivity  {
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
                     if (user.isEmailVerified()) {
-                        DynamicToast.makeSuccess(LoginActivity.this, "Redirecting to OTP!", 10).show();
-//                        FirebaseAuth.getInstance().signOut();
+                        DynamicToast.makeSuccess(LoginActivity.this, "Logging in..", 10).show();
                         Intent sendToOtp =  new Intent(LoginActivity.this, BottomNavBarActivity.class);
-//                        sendToOtp.putExtra("emailfromlogin",email);
-//                        sendToOtp.putExtra("pwdfromlogin",password);
                         startActivity(sendToOtp);
                         finish();
                     }

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="15dp"
-        android:fontFamily="@font/mazzardlbolditalic"
+        android:fontFamily="@font/poppins_regular"
         android:text="FAQ's"
         android:textAlignment="center"
         android:textColor="@color/textColor"
@@ -34,7 +34,7 @@
         android:layout_below="@+id/img_faq"
         android:divider="@color/chat_color"
         android:dividerHeight="0.5dp"
-        android:fontFamily="@font/mazzardlbolditalic"
+        android:fontFamily="@font/poppins_regular"
         android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft" />
 
 </RelativeLayout>

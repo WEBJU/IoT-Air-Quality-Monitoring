@@ -114,7 +114,7 @@ tools:context=".maincontroller.DashboardFragment">
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
                     android:drawablePadding="5dp"
-                    android:fontFamily="@font/mazzardlbolditalic"
+                    android:fontFamily="@font/poppins_regular"
                     android:gravity="center"
                     android:showText="true"
                     android:text="Air Monitoring"
@@ -126,6 +126,7 @@ tools:context=".maincontroller.DashboardFragment">
                 <pl.droidsonroids.gif.GifImageView
                     android:id="@+id/weather_animation"
                     android:layout_width="316dp"
+                    android:src="@drawable/sunny_snow"
                     android:layout_height="300dp" />
 
                 <TableLayout

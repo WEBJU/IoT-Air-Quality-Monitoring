@@ -8,6 +8,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+            android:layout_margin="20sp"
             android:layout_height="wrap_content">
 
             <TextView
@@ -62,7 +63,7 @@
                             android:drawablePadding="@dimen/_10sdp"
                             android:hint="Name"
                             android:inputType="text"
-
+                            android:layout_marginBottom="10dp"
                             android:maxLines="1"
                             android:shadowColor="@color/textColor"
                             android:textColor="@color/textColor"
@@ -84,6 +85,7 @@
                             android:background="@drawable/edit_style"
                             android:drawablePadding="@dimen/_10sdp"
                             android:hint="Email"
+                            android:layout_marginBottom="10dp"
                             android:inputType="textEmailAddress"
                             android:maxLines="1"
                             android:shadowColor="@color/textColor"
@@ -98,7 +100,7 @@
                         style="@style/Widget.Neumorph.Button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:fontFamily="@font/poppins_regular"
                         android:text="UPDATE DETAILS"
                         android:textColor="@color/backgroundColor"
                         android:textSize="22sp"

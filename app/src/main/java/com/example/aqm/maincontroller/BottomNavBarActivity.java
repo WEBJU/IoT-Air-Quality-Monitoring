@@ -130,8 +130,6 @@ public class BottomNavBarActivity extends AppCompatActivity  implements Navigati
         }
 
         fm.beginTransaction().add(R.id.fragment_container, fragment4, "4").hide(fragment4).commit();
-//        fm.beginTransaction().add(R.id.fragment_container, fragment3, "3").hide(fragment3).commit();
-//        fm.beginTransaction().add(R.id.fragment_container, fragment2, "2").hide(fragment2).commit();
         fm.beginTransaction().add(R.id.fragment_container, fragment1, "1").commit();
 
         bubbleNavigationLinearView.setNavigationChangeListener(new BubbleNavigationChangeListener() {
@@ -146,19 +144,9 @@ public class BottomNavBarActivity extends AppCompatActivity  implements Navigati
                         break;
 
                     case R.id.l_item_water:
-//                       fm.beginTransaction().hide(active).show(fragment2).commit();
-//                        active = fragment2;
-                        toolbar.setTitle("WATER TANK");
+                        toolbar.setTitle("Temperature");
                         mp.start();
                         break;
-
-//                    case R.id.l_item_elect:
-//                        fm.beginTransaction().hide(active).show(fragment3).commit();
-//                        active = fragment3;
-//                        toolbar.setTitle("ELECTRICITY");
-//                        mp.start();
-//                        break;
-
 
                     case R.id.l_item_leaf:
                         fm.beginTransaction().hide(active).show(fragment4).commit();
@@ -194,11 +182,7 @@ public class BottomNavBarActivity extends AppCompatActivity  implements Navigati
                 startActivity(auto);
                 mp.start();
                 break;
-//            case R.id.nav_settings:
-//                Intent settings = new Intent(getApplicationContext(), SettingsActivity.class);
-//                startActivity(settings);
-//                mp.start();
-//                break;
+
             case R.id.nav_cp:
                 Intent cp = new Intent(getApplicationContext(), ChangePasswordActivity.class);
                 startActivity(cp);
@@ -265,16 +249,5 @@ public class BottomNavBarActivity extends AppCompatActivity  implements Navigati
         return super.onCreateOptionsMenu(menu);
     }
 
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()){
-//            case R.id.chatbot_ta:
-//                Intent chatBot = new Intent(getApplicationContext(), ChatBotActivity.class);
-//                startActivity(chatBot);
-//                mp.start();
-//                break;
-//
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
+
 }

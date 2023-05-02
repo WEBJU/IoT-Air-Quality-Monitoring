@@ -9,6 +9,7 @@
             android:title="Edit Profile" />
         <item
             android:id="@+id/nav_auto"
+            android:visible="false"
             android:icon="@mipmap/plugin"
             android:title="Auto ON-OFF" />
         <item
@@ -40,6 +41,7 @@
             android:id="@+id/pl_switch_menu"
             android:icon="@mipmap/smartphone"
             android:title="Parental Control"
+            android:visible="false"
             app:actionLayout="@layout/parental_control_switch_layout"/>
         <item
             android:id="@+id/nav_logout"
