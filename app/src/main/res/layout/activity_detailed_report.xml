@@ -160,14 +160,14 @@
             android:textSize="@dimen/_12sdp" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/print_button"
-        android:layout_width="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/btn_style"
-        android:text="Print Report" />
+<!--    <Button-->
+<!--        android:id="@+id/print_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:background="@drawable/btn_style"-->
+<!--        android:text="Print Report" />-->
 </LinearLayout>
 </ScrollView>
 

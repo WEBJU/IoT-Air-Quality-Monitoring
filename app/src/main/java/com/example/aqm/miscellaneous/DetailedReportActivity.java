@@ -1,5 +1,6 @@
 package com.example.aqm.miscellaneous;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.aqm.R;
@@ -11,9 +12,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -65,23 +68,44 @@ public class DetailedReportActivity extends AppCompatActivity {
 
                     if (mq135 >= 1000) {
                         layout.setVisibility(View.VISIBLE);
-//                        // Get the FCM token from Realtime Firebase
-//                        DatabaseReference ref = database.child("fcmToken");
-//                        ref.addListenerForSingleValueEvent(new ValueEventListener() {
-//                            @Override
-//                            public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                                String fcmToken = snapshot.getValue(String.class);
-//
+
+                        // Get the FCM token from Realtime Firebase
+                        DatabaseReference ref = database.child("fcm_token");
+                        ref.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                                String fcmToken = snapshot.getValue(String.class);
+
+                                Log.d("TAG","yorfcm:"+fcmToken);
+                                // Send the notification to the user
+
 //                                // Send the notification to the user
-//                                FcmNotificationSender sender = new FcmNotificationSender(fcmToken, "Warning!", "MQ is greater than 1000");
-//                                sender.sendNotification();
-//                            }
+//                                Message message = Message.builder()
+//                                        .setNotification(Notification.builder()
+//                                                .setTitle("Test")
+//                                                .setBody("This is a test notification")
+//                                                .build())
+//                                        .setToken(fcmToken)
+//                                        .build();
 //
-//                            @Override
-//                            public void onCancelled(@NonNull DatabaseError error) {
-//                                Log.e(TAG, "Failed to get FCM token: " + error.getMessage());
-//                            }
-//                        });
+//
+//
+//
+//
+//                                try {
+//                                    String response = FirebaseMessaging.getInstance().send(message);
+//                                } catch (FirebaseMessagingException e) {
+//                                    e.printStackTrace();
+//                                }
+
+
+                            }
+
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError error) {
+                                Log.e("TAG", "Failed to get FCM token: " + error.getMessage());
+                            }
+                        });
                     } else {
                         layout.setVisibility(View.GONE);
                     }
@@ -93,6 +117,5 @@ public class DetailedReportActivity extends AppCompatActivity {
                 Log.d("User", databaseError.getMessage());
             }
         });
-
     }
 }
